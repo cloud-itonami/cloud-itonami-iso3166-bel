@@ -1,0 +1,33 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "bel.code-des-societes-et-des-associations-2019"
+           :title "Code des sociétés et des associations (Wetboek van vennootschappen en verenigingen)"
+           :jurisdiction "BEL"
+           :kind :law
+           :law-number "23 mars 2019"
+           :url "https://www.ejustice.just.fgov.be/cgi_loi/change_lg.pl?language=fr&la=F&cn=2019032309&table_name=loi"
+           :url-provenance :official-ejustice-fgov-be
+           :enacted-date "2019-03-23"
+           :retrieved-at "2026-07-15"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "bel.loi-protection-donnees-2018"
+           :title "Loi relative à la protection des personnes physiques à l'égard des traitements de données à caractère personnel"
+           :jurisdiction "BEL"
+           :kind :law
+           :law-number "30 juillet 2018"
+           :url "https://www.ejustice.just.fgov.be/eli/loi/2018/07/30/2018040581/justel"
+           :url-provenance :official-ejustice-fgov-be
+           :enacted-date "2018-07-30"
+           :retrieved-at "2026-07-15"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "bel.loi-contrats-de-travail-1978"
+           :title "Loi relative aux contrats de travail"
+           :jurisdiction "BEL"
+           :kind :law
+           :law-number "3 juillet 1978"
+           :url "https://www.ejustice.just.fgov.be/eli/loi/1978/07/03/1978070303/justel"
+           :url-provenance :official-ejustice-fgov-be
+           :enacted-date "1978-07-03"
+           :retrieved-at "2026-07-15"
+           :topic [:labor :employment]}]
